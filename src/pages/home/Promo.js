@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Promo() {
@@ -33,14 +34,13 @@ export default function Promo() {
         <div className=" shadow-[0_0_2px_1px_rgba(0,0,0,0.1)] w-[500px] mx-auto bg-light-200 dark:bg-dark-300">
           <div className="w-full">
             <div>
-              <img
+              <Image
                 src={
                   "https://code-fullstack-exercise49.vercel.app/mumbai/images/home-bg.jpg"
                 }
-                style={{
-                  width: "100%",
-                  height: "auto",
-                }}
+                alt="promo"
+                width={500}
+                height={250}
               />
             </div>
             <div className="p-5 font-medium">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Packages() {
@@ -31,14 +32,13 @@ export default function Packages() {
           <div className=" shadow-[0_0_5px_2px_rgba(0,0,0,0.1)] rounded-lg overflow-hidden w-[400px] mx-auto bg-light-200 dark:bg-dark-300">
             <div className="w-full">
               <div>
-                <img
+                <Image
                   src={
                     "https://code-fullstack-exercise49.vercel.app/mumbai/images/home-bg.jpg"
                   }
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                  }}
+                  alt="Packages"
+                  width={400}
+                  height={250}
                 />
               </div>
               <div className="p-5 font-medium">

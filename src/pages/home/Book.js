@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Book() {
@@ -42,11 +43,13 @@ export default function Book() {
       </div>
       <div className="flex flex-row justify-center items-center gap-x-10">
         <div className="section-image">
-          <img
+          <Image
             src={
               "https://code-fullstack-exercise49.vercel.app/images/book-img.svg"
             }
-            style={{ width: "500px", height: "500px" }}
+            alt="book"
+            width={500}
+            height={500}
           />
         </div>
         <div className="section-formBox">
@@ -67,11 +70,7 @@ export default function Book() {
               <label htmlFor="maps" className=" block font-bold">
                 Tôi Muốn Đến :
               </label>
-              <select
-                name=""
-                id=""
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd]"
-              >
+              <select className="w-[500px] px-2 py-1.5 border-1 border-[#ddd]">
                 <option value="1">Việt Nam</option>
               </select>
               <input

@@ -14,7 +14,7 @@ export default function Header() {
   //   }
   // }, [headerInner.current, header.current]);
   return (
-    <header className="header relative z-1" ref={header}>
+    <header className="header relative z-20" ref={header}>
       <div
         className="header-inner fixed inset-x-0 top-0 shadow-md z-10 bg-dark-400 transition-colors text-dark-100"
         ref={headerInner}
