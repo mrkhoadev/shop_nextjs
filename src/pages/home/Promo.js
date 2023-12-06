@@ -31,16 +31,17 @@ export default function Promo() {
             </p>
           </h2>
         </div>
-        <div className=" shadow-[0_0_2px_1px_rgba(0,0,0,0.1)] w-[500px] mx-auto bg-light-200 dark:bg-dark-300">
-          <div className="w-full">
-            <div>
+        <div className=" shadow-[0_0_2px_1px_rgba(0,0,0,0.1)] w-[500px] mx-auto bg-[#fff] dark:bg-dark-300">
+          <div className="w-full ">
+            <div className="relative h-[300px]">
               <Image
                 src={
                   "https://code-fullstack-exercise49.vercel.app/mumbai/images/home-bg.jpg"
                 }
                 alt="promo"
-                width={500}
-                height={250}
+                fill
+                sizes="100%"
+                priority
               />
             </div>
             <div className="p-5 font-medium">

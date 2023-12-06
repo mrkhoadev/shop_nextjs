@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Gallery() {
+export default function HomeGallery() {
   const ImgArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   return (
-    <section id="gallery">
+    <section id="home">
       <div className="min-h-[100vh] pt-[85px] container max-w-7xl mx-auto">
         <div className="section-title">
           <h2 className="text-4xl font-bold text-100 flex gap-x-6 justify-center">
@@ -15,24 +15,24 @@ export default function Gallery() {
                 T
               </span>
               <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                H
+                Ổ
               </span>
               <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                Ư
+                N
+              </span>
+              <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
+                G
               </span>
             </p>
             <p className="flex gap-x-2">
               <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                V
+                H
               </span>
               <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                I
+                Ợ
               </span>
               <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                Ệ
-              </span>
-              <span className="bg-200 py-2 w-[50px] text-center rounded-lg">
-                N
+                P
               </span>
             </p>
           </h2>
@@ -48,10 +48,10 @@ export default function Gallery() {
                     Chia Sẻ Lên Đây
                   </p>
                   <Link
-                    href={"/gallery"}
+                    href={"/"}
                     className=" text-[#fff] bg-yellow py-2 px-4 text-xl border-2 border-yellow hover:bg-200 hover:text-100 transition-colors"
                   >
-                    Xem Thêm
+                    Trang chủ
                   </Link>
                 </div>
                 <Image

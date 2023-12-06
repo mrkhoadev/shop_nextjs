@@ -41,7 +41,10 @@ export default function LoginForm() {
           Đăng ký
         </button>
       </div>
-      <div ref={formBoxRef} className=" relative overflow-hidden">
+      <div
+        ref={formBoxRef}
+        className=" relative overflow-hidden transition-height"
+      >
         <form
           className={`flex flex-col gap-y-4 mt-5 absolute transition-transform top-0${
             status ? ` translate-y-[-120%] invisible` : ""

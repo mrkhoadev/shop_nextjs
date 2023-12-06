@@ -1,4 +1,5 @@
 import Book from "@/pages/home/Book";
+import Contact from "@/pages/home/Contact";
 import Gallery from "@/pages/home/Gallery";
 import Home from "@/pages/home/Home";
 import Packages from "@/pages/home/Packages";
@@ -15,6 +16,7 @@ export default function HomeRoute() {
       <Services />
       <Gallery />
       <Review />
+      <Contact />
     </main>
   );
 }
