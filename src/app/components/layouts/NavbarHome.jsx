@@ -7,7 +7,7 @@ export default function NavbarHome({ active }) {
         <a
           href="#home"
           className={`transition-colors px-2 h-full flex items-center justify-center border-b-4 pt-1${
-            active === "home"
+            active === "home" || active === null
               ? " text-100 border-yellow bg-gradient-to-b from-[#e8c1910a] to-[#e09b466c]"
               : " border-[transparent]"
           } hover:border-yellow hover:text-100`}
