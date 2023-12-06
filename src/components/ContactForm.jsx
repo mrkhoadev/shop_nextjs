@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 // import emailjs from "emailjs-com";
-import alertify from "alertifyjs";
+// import alertify from "alertifyjs";
 
 export default function ContactForm() {
   const handleSubmit = (e) => {
