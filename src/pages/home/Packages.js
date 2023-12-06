@@ -203,7 +203,7 @@ export default function Packages() {
               <div className=" relative h-[270px]">
                 <Image
                   src={
-                    "	https://code-fullstack-exercise49.vercel.app/images/p-5.jpg"
+                    "https://code-fullstack-exercise49.vercel.app/images/p-5.jpg"
                   }
                   alt="Packages"
                   fill

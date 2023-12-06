@@ -1,33 +1,9 @@
 "use client";
 import React from "react";
-// import emailjs from "emailjs-com";
-// import alertify from "alertifyjs";
 
 export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // const currentUrl = window.location.href;
-    // const options = {
-    //   form_name: "Anh Khoa",
-    //   to_email: e.target.email.value,
-    //   reply: "mr.khoacoding@gmail.com",
-    //   name: e.target.name.value,
-    //   link: currentUrl,
-    //   message: e.target.message.value,
-    // };
-    // const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
-    // const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-    // const userId = process.env.NEXT_PUBLIC_USER_ID;
-    // emailjs
-    //   .send(serviceId, templateId, options, userId)
-    //   .then(() => {
-    //     alertify.success("Gửi email thành công!");
-    //   })
-    //   .catch(() => {
-    //     alertify.error("Gửi email thất bại! Hãy thử lại!");
-    //   });
-    //   .finally(() => {
-    //   });
   };
   return (
     <form
