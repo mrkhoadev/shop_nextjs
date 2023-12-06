@@ -36,8 +36,8 @@ export default function Gallery() {
           </h2>
         </div>
         <div className="grid grid-cols-3 gap-5 mt-5 pb-5">
-          {ImgArr.map((num) => (
-            <div className="p-2 bg-[#fff] rounded-md shadow-lg">
+          {ImgArr.map((num, i) => (
+            <div className="p-2 bg-[#fff] rounded-md shadow-lg" key={i}>
               <div className="relative group overflow-hidden">
                 <div className="px-3 absolute group-hover:translate-y-[100%] transition-transform bg-[rgba(0,0,0,0.7)] inset-x-0 h-[100%] top-[-100%] flex flex-col gap-4 justify-center items-center">
                   <h4 className="text-100 text-2xl font-bold">Ảnh chụp</h4>
