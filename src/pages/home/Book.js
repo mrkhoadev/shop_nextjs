@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export default function Book() {
@@ -43,12 +42,11 @@ export default function Book() {
       </div>
       <div className="flex flex-row justify-center items-center gap-x-10">
         <div className="section-image">
-          <Image
+          <img
             src={
               "https://code-fullstack-exercise49.vercel.app/images/book-img.svg"
             }
-            width={500}
-            height={500}
+            style={{ width: "500px", height: "500px" }}
           />
         </div>
         <div className="section-formBox">
