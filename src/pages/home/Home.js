@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative h-[100vh] w-full flex justify-center items-center flex-col gap-y-12 min-h-[100vh]"
+      className="section relative h-[100vh] w-full flex justify-center items-center flex-col gap-y-12 min-h-[100vh]"
     >
       <div className=" text-2xl text-[#fff] text-center flex flex-col gap-y-4">
         <h1 className="text-5xl font-bold dark:text-100 transition-colors">

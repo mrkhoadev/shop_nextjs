@@ -4,7 +4,7 @@ import React from "react";
 export default function Book() {
   return (
     <section
-      className="h-screen min-h-[740px] container max-w-7xl mx-auto flex flex-col items-center justify-end gap-y-4 pb-5"
+      className="section h-screen min-h-[740px] container max-w-7xl mx-auto flex flex-col items-center justify-end gap-y-4 pb-5"
       id="book"
     >
       <div className="section-title">
@@ -53,7 +53,7 @@ export default function Book() {
           />
         </div>
         <div className="section-formBox">
-          <form className="p-5 shadow-[0_0px_15px_1px_rgba(0,0,0,0.1)] rounded-md text-light-200 flex flex-col gap-y-4 text-md">
+          <form className="p-5 shadow-[0_0px_15px_1px_rgba(0,0,0,0.1)] rounded-md dark:text-dark-100 text-light-200 flex flex-col gap-y-4 text-md">
             <div className="item">
               <label htmlFor="email" className=" block font-bold">
                 Hãy Liên Hệ Với Tôi Bằng :
@@ -62,7 +62,7 @@ export default function Book() {
                 type="text"
                 name="email"
                 id="email"
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2"
+                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2 dark:border-yellow"
                 placeholder="Email hoặc Số điện thoại"
               />
             </div>
@@ -70,14 +70,14 @@ export default function Book() {
               <label htmlFor="maps" className=" block font-bold">
                 Tôi Muốn Đến :
               </label>
-              <select className="w-[500px] px-2 py-1.5 border-1 border-[#ddd]">
+              <select className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] dark:border-yellow">
                 <option value="1">Việt Nam</option>
               </select>
               <input
                 type="text"
                 name="maps"
                 id="maps"
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd]"
+                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] dark:border-yellow"
                 placeholder="Địa điểm chính xác"
               />
             </div>
@@ -90,7 +90,7 @@ export default function Book() {
                 name="number"
                 id="number"
                 min={1}
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2"
+                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2 dark:border-yellow"
                 placeholder="Số người"
               />
             </div>
@@ -102,7 +102,7 @@ export default function Book() {
                 type="date"
                 name="start"
                 id="start"
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2"
+                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2 dark:border-yellow"
                 placeholder="Bắt đầu từ"
               />
             </div>
@@ -114,13 +114,13 @@ export default function Book() {
                 type="date"
                 name="end"
                 id="end"
-                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2"
+                className="w-[500px] px-2 py-1.5 border-1 border-[#ddd] mt-2 dark:border-yellow"
                 placeholder="Bắt đầu từ"
               />
             </div>
             <button
               type="button"
-              className="bg-yellow border-2 border-transparent text-[#fff] w-fit px-7 py-2 hover:bg-200 hover:border-yellow hover:text-100"
+              className="bg-yellow border-2 border-[transparent] text-[#fff] w-fit px-7 py-2 hover:bg-200 hover:border-yellow hover:text-100"
             >
               Tìm Ngay
             </button>

@@ -84,7 +84,7 @@ export default function NavbarGallery({ active }) {
               : " border-[transparent]"
           } hover:border-yellow hover:text-100`}
         >
-          Tokyo
+          Egypt
         </a>
       </li>
     </ul>

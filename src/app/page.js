@@ -8,7 +8,7 @@ import Review from "@/pages/home/Review";
 import Services from "@/pages/home/Services";
 export default function HomeRoute() {
   return (
-    <main>
+    <main className="main">
       <Home />
       <Book />
       <Promo />
