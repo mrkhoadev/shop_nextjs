@@ -4,7 +4,7 @@ import React from "react";
 export default function Book() {
   return (
     <section
-      className="section h-screen min-h-[740px] container max-w-7xl mx-auto flex flex-col items-center justify-end gap-y-4 pb-5"
+      className="h-screen min-h-[740px] container max-w-7xl mx-auto flex flex-col items-center justify-end gap-y-4 pb-5"
       id="book"
     >
       <div className="section-title">

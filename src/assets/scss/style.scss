@@ -8,12 +8,4 @@
     font-family: "Nunito", sans-serif;
     scroll-behavior: smooth;
   }
-  .main {
-    scroll-snap-type: y mandatory;
-    display: flex;
-    flex-direction: column;
-    .section {
-      scroll-snap-align: start;
-    }
-  }
 }
